@@ -148,3 +148,51 @@ th{
    clear: both;
    display:table;
 }
+
+input[type=text], [type=email], select, textarea {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #24190c;
+   border-radius: 5px;
+   box-sizing: border-box;
+   margin-top: 6px;
+   margin-bottom: 16px;
+}
+
+input[type=submit] {
+   background-color: #564039;
+   color: #f1e8dc;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+input[type=submit]:hover {
+   background-color: #302420;
+}
+
+.contact {
+   border-radius: 6px;
+   background-color: #24190c;
+   padding: 20px;
+}
+
+textarea {
+   font-family: Poppins;
+}
+
+.contactsubmit {
+   border-radius: 6px;
+   background-color: #24190c;
+   padding: 20px;
+   padding-bottom: 42px;
+
+.submitted {
+   color: #f5e8db ;
+}
+
+.submitted:hover {
+   color: #cf954a
+}
