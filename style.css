@@ -126,12 +126,14 @@ th,td{
    background-color: #fefecc;
    color: black;
    padding: 15px;
+   border-left: ;
 }
 
 th{
    background-color: #fadb63 ;
    color: #000000;
 }
+
 
 .gupta {
    border-radius: 50%;

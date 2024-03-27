@@ -40,12 +40,60 @@
 						<section>
 							<h1>Welcome to Maths Machine</h1>
 							<!--introductory text-->
-							<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis nulla sodales diam imperdiet bibendum. Aenean volutpat fermentum lacus. Fusce ut nulla sit amet tellus volutpat iaculis vitae non ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed in ornare augue. Sed vel lacus finibus libero rutrum pharetra dignissim vel ante. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Aliquam commodo magna. 
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis nulla sodales diam imperdiet bibendum. Aenean volutpat fermentum lacus. Fusce ut nulla sit amet tellus volutpat iaculis vitae non ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed in ornare augue. Sed vel lacus finibus libero rutrum pharetra dignissim vel ante. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Aliquam commodo magna. 
 							<br><br>"SAME SIGN ADD, OPPOSITE SIGN TAKE-AWAY"<p>
 							<br>
 							<img class="gupta" src=promcircle.jpg width=200px height=200px>
 							<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp-ASHISH GUPTA <P>
 						</section>
+						<br><br>
+						<div class="countdown">
+							Exam Countdown:
+							<p id="alevelpaper1"></p>
+							<script>
+								var countDownDate = new Date("May 16 2024 13:30:00").getTime();
+
+								var x = setInterval(function() {
+									var now = new Date().getTime();
+									var distance = countDownDate - now;
+									var days = Math.floor(distance / (1000*60*60*24));
+									var hours = Math.floor((distance % (1000*60*60*24)) / (1000*60*60));
+									var minutes = Math.floor((distance % (1000*60*60)) / (1000*60));
+									var seconds = Math.floor((distance % (1000*60)) / 1000);
+
+									document.getElementById("alevelpaper1").innerHTML = "Edexcel A Level Paper 1: " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+									if (distance < 0) {
+										clearInterval (x);
+									
+									document.getElementById("alevelpaper1").innerHTML = "Good Luck!";	
+									}
+								}, 1000);
+							</script>
+						</div>
+						<div class ="countdown2">
+							<p id="alevelpaper2"></p>
+							<script>
+								var countDownDate = new Date("June 13 2024 13:30:00").getTime();
+
+								var x = setInterval(function() {
+									var now = new Date().getTime();
+									var distance = countDownDate - now;
+									var days = Math.floor(distance / (1000*60*60*24));
+									var hours = Math.floor((distance % (1000*60*60*24)) / (1000*60*60));
+									var minutes = Math.floor((distance % (1000*60*60)) / (1000*60));
+									var seconds = Math.floor((distance % (1000*60)) / 1000);
+
+									document.getElementById("alevelpaper2").innerHTML = "Edexcel A Level Paper 2: " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+									if (distance < 0) {
+										clearInterval (x);
+									
+									document.getElementById("alevelpaper2").innerHTML = "Good Luck!";	
+									}
+								}, 1000);
+							</script>
+						</div>
 					</div>
 					<div class="yt">
 						<section>
