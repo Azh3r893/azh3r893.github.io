@@ -3,7 +3,7 @@
 	<head>
 		<!--metadata for brower-->
 		<title>Maths Machine</title>
-		<link rel="stylesheet" href="styletest.css">
+		<link rel="stylesheet" href="style.css">
 		<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 	</head>
 	<body>
@@ -40,14 +40,40 @@
 						<section>
 							<h1>Welcome to Maths Machine</h1>
 							<!--introductory text-->
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis nulla sodales diam imperdiet bibendum. Aenean volutpat fermentum lacus. Fusce ut nulla sit amet tellus volutpat iaculis vitae non ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed in ornare augue. Sed vel lacus finibus libero rutrum pharetra dignissim vel ante. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Aliquam commodo magna. 
+							<p>Hi, I am a qualified Maths Lecturer with 17 years of teaching experience A level and GCSE Maths. 
+							<br><br>I am also an A level maths examiner.If you really want to boost your grades please 
+							<span class="contactlink"><a href="contact.html">contact</a> </span>  me. I will be able to help you. 
 							<br><br>"SAME SIGN ADD, OPPOSITE SIGN TAKE-AWAY"<p>
 							<br>
 							<img class="gupta" src=promcircle.jpg width=200px height=200px>
-							<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp-ASHISH GUPTA <P>
+							<p>-ASHISH GUPTA 
+							<br>M.Sc. (Maths), 
+							<br>
+							B.Sc. (Physics, Chemistry, Maths),
+							<br> 
+							B.Ed. & PGCE<P>
 						</section>
-						<br><br>
-						<div class="countdown">
+						<section>
+							<p>
+								<span class="indexcolor">Availability: </span> After 4:30 pm every Day
+								<br>
+								<span class="indexcolor">Willing to travel: </span>
+								10 miles
+								<br>
+								<span class="indexcolor">Experience: </span>
+								17 Years of experience teaching A level Maths, Further Maths and GCSE Maths
+								<br>
+								<span class="indexcolor">DBS Check: </span>
+								Yes
+							</p>
+						</section>						
+					</div>
+					<div class="yt">
+						<section>
+							<br><br>
+							<iframe width="672" height="378" src="https://www.youtube.com/embed/E1kTUZtt3k8?si=EettVUU-VYWm7cH5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							<br><br>
+							<div class="countdown">
 							Exam Countdown:
 							<p id="alevelpaper1"></p>
 							<script>
@@ -71,34 +97,6 @@
 								}, 1000);
 							</script>
 						</div>
-						<div class ="countdown2">
-							<p id="alevelpaper2"></p>
-							<script>
-								var countDownDate = new Date("June 13 2024 13:30:00").getTime();
-
-								var x = setInterval(function() {
-									var now = new Date().getTime();
-									var distance = countDownDate - now;
-									var days = Math.floor(distance / (1000*60*60*24));
-									var hours = Math.floor((distance % (1000*60*60*24)) / (1000*60*60));
-									var minutes = Math.floor((distance % (1000*60*60)) / (1000*60));
-									var seconds = Math.floor((distance % (1000*60)) / 1000);
-
-									document.getElementById("alevelpaper2").innerHTML = "Edexcel A Level Paper 2: " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-
-									if (distance < 0) {
-										clearInterval (x);
-									
-									document.getElementById("alevelpaper2").innerHTML = "Good Luck!";	
-									}
-								}, 1000);
-							</script>
-						</div>
-					</div>
-					<div class="yt">
-						<section>
-							<br><br><br>
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/E1kTUZtt3k8?si=EettVUU-VYWm7cH5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 						</section>
 					</div>
 				</div>

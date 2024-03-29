@@ -58,6 +58,18 @@ nav a:hover {
 .welcome {
    flex: 20%;
    padding: 20px;
+   .indexcolor {
+      color: #cf954a;
+   }
+}
+
+.welcome a{
+      color: #f5e8db;
+}  
+
+.welcome a:hover{
+   color: #cf954a;
+   
 }
 
 .yt {
@@ -198,3 +210,4 @@ textarea {
 .submitted:hover {
    color: #cf954a
 }
+
