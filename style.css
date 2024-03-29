@@ -75,6 +75,9 @@ nav a:hover {
 .yt {
    flex: 20%;
    padding: 20px;
+   .indexcolor {
+      color: #cf954a;
+   }
 }
 
 
