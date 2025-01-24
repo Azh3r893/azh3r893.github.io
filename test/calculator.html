@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta content= "width—device-width, initial-scale=l.0">
+		<! --metadata for brower-->
+		<title>Maths Machine Calculator</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="calculator.css">
+		<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+	</head>
+		<div id="page-container">
+			<div id="content-wrap">
+				<header>
+				<!--intro section content-->
+				<div class="pfp">
+					<img src=Picture1.png width="150" height="150">
+				</div>
+				<div class="title">
+					<h1  style="margin-bottom: 0;"> Maths Machine </h1>
+					<p1 style="margin-top: 0; font-size: medium;">WHERE GENIUSES ARE MADE</p1>
+					<section>
+						<h1  style="margin-bottom: 0;">GCSE and A-Level Maths Revision</h1>
+					</section>
+				</div>
+				</header>
+				<nav>
+				<!--navigation bar-->
+				<a href="index">Home</a>
+				<a href="gcse.html">GCSE Revision</a>
+				<a href="alevel.html">A-Level Revision</a>
+				<a href="https://www.youtube.com/@geniusmakingmachine-gcsea-8311">YouTube</a>
+				<a href="tuition.html">Private Tuition</a>
+				<a href="faq.html">FAQs</a> 
+				<a href="contact.html">Contact Us</a>
+				</nav>
+			</div>
+		</div>
+	<main>
+		<body>
+		<div id="calculator">
+			<input id="display" readonly>
+			<div id="keys">
+				<button onclick="clearDisplay()" class="operator-btn">C</button>
+				<p></p>
+				<p></p>
+				<p></p>
+				<button onclick="appendToDisplay('7')">7</button>
+				<button onclick="appendToDisplay('8')">8</button>
+				<button onclick="appendToDisplay('9')">9</button>
+				<button onclick="appendToDisplay('+')" class="operator-btn">+</button>
+				<button onclick="appendToDisplay('4')">4</button>
+				<button onclick="appendToDisplay('5')">5</button>
+				<button onclick="appendToDisplay('6')">6</button>
+				<button onclick="appendToDisplay('-')" class="operator-btn">-</button>
+				<button onclick="appendToDisplay('1')">1</button>
+				<button onclick="appendToDisplay('2')">2</button>
+				<button onclick="appendToDisplay('3')">3</button>
+				<button onclick="appendToDisplay('*')" class="operator-btn">*</button>
+				<button onclick="appendToDisplay('0')">0</button>
+				<button onclick="appendToDisplay('.')">.</button>
+				<button onclick="calculate()" class="operator-btn-equals">=</button>
+				<button onclick="appendToDisplay('/')" class="operator-btn">/</button>	
+			</div>
+		</div>
+	    </body>
+	</main>
+
+	<footer>
+				<p>Made by Azher Hamza | WORK IN PROGRESS</p>
+			</footer>
+
+		<script src="calculator.js"></script>
+</html>
